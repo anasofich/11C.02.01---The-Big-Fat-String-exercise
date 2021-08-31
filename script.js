@@ -12,6 +12,7 @@ function showOutput() {
   if (options == "opt1") {
     const output = input.substring(0, 1).toUpperCase() + input.substring(1);
     document.querySelector("#output").value = output;
+    console.log(output);
   } else if (options == "opt2") {
     const firstSpace = input.indexOf(" ");
     const output = input.substring(0, firstSpace);
