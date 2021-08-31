@@ -1,0 +1,19 @@
+.interface {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+
+input {
+  width: 400px;
+}
+
+#options {
+  margin-left: 2.8rem;
+}
+
+#generate {
+  margin-left: 2.8rem;
+  width: 140px;
+}
